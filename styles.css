@@ -28,6 +28,12 @@ hr {
     margin: 50px auto;
 }
 
+.crp {
+    color: inherit;
+    text-decoration: none;
+    pointer-events: none;
+}
+
 .bg-image {
     position: absolute;
     top: 0;
