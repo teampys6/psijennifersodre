@@ -386,7 +386,8 @@ hr {
     }
 
     .ready__content h1 {
-        width: 100%;
+        padding: 3.5em 2.1875em;
+        width: 300px;
         font-size: 1.5rem;
     }
 }
