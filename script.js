@@ -7,3 +7,7 @@ sr.reveal('.perfil-img', {
 sr.reveal('.content-home .title', {
     duration: 1500
 })
+
+sr.reveal('.content__illustration', {
+    duration: 1500
+})
