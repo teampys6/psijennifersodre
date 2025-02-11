@@ -256,8 +256,19 @@ hr {
     color: hsl(192, 100%, 9%);
     margin-bottom: 40px;
 }
+
+.button__whatsapp {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
   
 .button__ready {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
     border: none;
     background: #128c7e;
     color: #25d366;
@@ -274,6 +285,12 @@ hr {
     transform: scale(1.05);
     background-color: #075e54;
     box-shadow: 0 0 20px #25d366;
+}
+
+.button__ready p {
+    font-family: 'Poppins';
+    font-size: 15px;
+    color: #25d366;
 }
 
 .illustrations-mobile {
@@ -386,8 +403,11 @@ hr {
     }
 
     .ready__content h1 {
-        padding: 3.5em 2.1875em;
         width: 300px;
         font-size: 1.5rem;
+    }
+
+    .ready__content {
+        padding: 3.5em 2.1875em;
     }
 }
